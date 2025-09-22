@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  access:
+    secret: change_this_to_a_long_random_value_for_access
+    ttl: 900000      # 15 minutes (ms)
+  refresh:
+    secret: change_this_to_a_long_random_value_for_refresh
+    ttl: 1209600000 # 14 days (ms)
