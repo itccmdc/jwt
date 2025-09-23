@@ -12,7 +12,8 @@ jdbc:h2:mem:testdb
 gradlew clean build
 java -jar build/libs/jwt-0.0.1-SNAPSHOT.jar
 
-# 해야 할 것
-1. 토큰 재발급 시 토큰 회수
-2. 로그아웃 시 토큰 회수
-3. users/me 확인
+# 한 번에 실행
+gradlew bootRun
+
+# H2 DB URL
+http://localhost:8080/h2-console
