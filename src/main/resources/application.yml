@@ -17,8 +17,8 @@ spring:
 
 jwt:
   access:
-    secret: change_this_to_a_long_random_value_for_access
+    secret: f8a7c2e1b5d943f28a1c6e4d9f0b3a7c
     ttl: 900000      # 15 minutes (ms)
   refresh:
-    secret: change_this_to_a_long_random_value_for_refresh
+    secret: 3d9f7b2c1e5a48f6b0d2c9e7f4a1b6c8
     ttl: 1209600000 # 14 days (ms)
