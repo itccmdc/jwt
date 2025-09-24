@@ -11,13 +11,13 @@
 ## 실행 방법
 
 ### ▶ 방법 1: Jar 실행
-1. **단축키** `Ctrl + \`` (VSCode 기준) → 터미널 실행  
+1. **단축키** Ctrl + \` (VSCode 기준) → 터미널 실행  
 2. `.\gradlew clean build` 입력 후 **Enter**  
 3. `java -jar build/libs/jwt-0.0.1-SNAPSHOT.jar` 입력 후 **Enter**  
 4. 브라우저 실행 → [Swagger UI](http://localhost:8080/swagger-ui/index.html) 접속  
 
 ### ▶ 방법 2: BootRun 실행
-1. **단축키** `Ctrl + \`` (VSCode 기준) → 터미널 실행  
+1. **단축키** Ctrl + \` (VSCode 기준) → 터미널 실행  
 2. `.\gradlew bootRun` 입력 후 **Enter**  
 3. 브라우저 실행 → [Swagger UI](http://localhost:8080/swagger-ui/index.html) 접속  
 
